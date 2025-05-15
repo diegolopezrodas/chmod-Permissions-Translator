@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 int translatePerm(char* binaryPerm) {
     
     int permValue = 0;
