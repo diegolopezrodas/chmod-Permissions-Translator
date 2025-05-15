@@ -51,7 +51,7 @@ char* askPermissions(int entityID) {
 
     return fullBinaryPerms;
 
-} //End of askPermissions()
+} //End of askPermissions(int entityID)
 
 void chmodValueToExecute() {
 
