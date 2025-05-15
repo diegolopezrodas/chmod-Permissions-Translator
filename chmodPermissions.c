@@ -42,7 +42,7 @@ char* askPermissions(int entityID) {
     int  permsHolder;
     
     for(int rwxIndex = 0; rwxIndex < 3; rwxIndex++){
-        printf("\nDo you wish for %s to have %s priviledegs? (NO = 0, YES = 1)\n", getEntity(entityID), rwx[rwxIndex]);
+        printf("\nDo you wish for %s to have %s priviledges? (NO = 0, YES = 1)\n", getEntity(entityID), rwx[rwxIndex]);
         scanf("%d", &permsHolder);
         fullBinaryPerms[rwxIndex] = (char)(permsHolder + '0');
     }
