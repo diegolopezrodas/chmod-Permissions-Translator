@@ -31,7 +31,7 @@ char* getEntity(int entityID) {
 
 char* askPermissions(int entityID) {
     
-    char rwx[3][7] = {"read", "write", "execute"};
+    char rwx[3][8] = {"read", "write", "execute"};
     char* fullBinaryPerms = malloc(4 * sizeof(char));
 
     if (fullBinaryPerms == NULL) {
